@@ -109,3 +109,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: auto;
   }
   
+  @media (max-width: 768px) {
+  
+    .div-padre {
+      flex-direction: column;
+    }
+
+}
