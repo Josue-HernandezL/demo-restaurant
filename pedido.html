@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="preload" href="./css/pedido.css" as="style">
+    <link rel="stylesheet" href="./css/pedido.css">
     <link rel="preload" href="./css/adaptacion.css" as="style">
     <link rel="stylesheet" href="./css/adaptacion.css">
     <script src="https://kit.fontawesome.com/f0d879fa51.js" crossorigin="anonymous"></script>
@@ -27,53 +27,138 @@
         <i class="fa-solid fa-bars hamburger" id="hamburger" data-active="false"></i>
     </header>
 
-<section>
+    <div class="text-1">
+        <h1>Pedido</h1>
+    </div>
+
+    <div class="h2">
+        <div class="h2-sec">
+            <h2>Comida</h2>
+        </div>
+    </div>
 
     <form action="">
 
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="checkbox">
-        </div>
-        <div>
-            <input type="button" value="Hacer pedido">
-        </div>
+        <section>
+
+            <div class="container">
+    
+                <div class="div-padre">
+    
+                    <div class="hijo">
+    
+                        <img src="./recursos/tacos-5328498.svg" alt="" loading="lazy">
+                        <div class="txt-hijo">
+                            <h3>Tacos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                        <div class="input-1">
+                            <input type="checkbox" name="pedidospedidos" id="taco1" value="tacos1">
+                            <input type="number" id="number">
+                        </div>
+                        
+                    </div>
+    
+                    <div class="hijo">
+    
+                        <img src="./recursos/tacos-5328498.svg" alt="" loading="lazy">
+                        <div class="txt-hijo">
+                            <h3>Tacos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                        <div class="input-1">
+                            <input type="checkbox" name="pedidos" id="" value="tacos2">
+                            <input type="number" id="number">
+                        </div>
+
+                    </div>
+    
+                    <div class="hijo">
+    
+                        <img src="./recursos/tacos-5328498.svg" alt="" loading="lazy">
+                        <div class="txt-hijo">
+                            <h3>Tacos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                        </div>
+                        <div class="input-1">
+                            <input type="checkbox" name="pedidos" id="" value="tacos3">
+                            <input type="number" id="number">
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+        </section>
+    
+            <div class="h2">
+                <div class="h2-sec">
+                    <h2>Bebidas</h2>
+                </div>
+            </div>
+    
+    
+            <section>
+    
+                <div class="container">
+        
+                    <div class="div-padre">
+    
+                        <div class="hijo">
+    
+                            <img src="/recursos/juice-42560.svg" alt="" loading="lazy">
+                            <div class="txt-hijo">
+                                <h3>Jugo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            </div>
+                            <div class="input-1">
+                                <input type="checkbox" name="pedidos" id="" value="bebida1">
+                                <input type="number" id="number">
+                            </div>
+        
+                        </div>
+    
+                        <div class="hijo">
+    
+                            <img src="/recursos/juice-42560.svg" alt="" loading="lazy">
+                            <div class="txt-hijo">
+                                <h3>Jugo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            </div>
+                            <div class="input-1">
+                                <input type="checkbox" name="pedidos" id="" value="bebida2">
+                                <input type="number" id="number">
+                            </div>
+        
+                        </div>
+    
+                        <div class="hijo">
+    
+                            <img src="/recursos/juice-42560.svg" alt="" loading="lazy">
+                            <div class="txt-hijo">
+                                <h3>Jugo</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            </div>
+                            <div class="input-1">
+                                <input type="checkbox" name="pedidos" id="" value="bebida3">
+                                <input type="number" id="number">
+                            </div>
+        
+                        </div>
+    
+                    </div>
+                </div>
+        
+            </section>
+
+                <div class="btn">
+                    <button type="button" id="boton" class="btn-grad">Hacer pedido</button>
+                </div>
+                
 
     </form>
 
-</section>
 
 <script src="./js/menu-responsive.js"></script>
 
