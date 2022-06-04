@@ -70,8 +70,6 @@ ul {
 
   /* MENU */
 
-    
-
   .text-1 {
       margin: 0;
       display: flex;
@@ -107,9 +105,120 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
   .div-hijo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+  }
+
+  .txt-hijo {
+    height: auto;
+    width: 300px;
+  align-items: center;
+  text-align: center;
+  margin: 25px auto;
+}
+
+h3, p .div-hijo {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* section */
+
+  .h2 {
     height: auto;
     width: auto;
+}
+
+.h2-sec-1 {
+    background-color: #de6000;
+    height: auto;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.h2-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+
+.input-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 25px;
+    width: 50px;
+    color: #de6000;
+    margin: 25px;  
+}
+
+#number {
+    height: auto;
+    width: 50px;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #c21500 0%,
+      #ffc500 51%,
+      #c21500 100%
+    );
+}
+
+.btn-grad {
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 1px #f9c99190;
+    padding: 2vh 5vh;
+  
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.42);
   }
+  
+  .btn-grad:hover {
+    transition: 0.8s;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+footer {
+    margin-top: 100px;
+}
+
   
   @media (max-width: 768px) {
   
