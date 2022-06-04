@@ -25,6 +25,10 @@ section {
 /* NAVEGACION */
 
 
+i#hamburger {
+    display: none;
+}
+
 header {
     display: flex;
     height: 8vh;
@@ -242,7 +246,7 @@ footer {
         width: auto;
     }
 
-    .h2-sec {
+    .h2-sec-1 {
         display: flex;
         justify-content: center;
         align-items: center;
